@@ -1,0 +1,79 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'Roboto flex',sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    background-color: rgb(228, 225, 221);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+input[type="submit"], button, select{
+    background-color: transparent;
+    border: 0;
+}
+input{
+    border: 0;
+}
+
+
+header h1{
+    text-align: center;
+}
+
+fieldset, section{
+    max-width: 80rem;
+    margin: 0 auto 5rem;
+    padding: 1rem;
+    border-radius: .4rem;
+    border: solid .1rem #1c5882;
+}
+
+fieldset legend{
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+form *{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .9rem;
+}
+form input, form select{
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    transition: all 0.8s ease-in-out;
+   
+}
+form input[type="text"]:focus, form input[type="password"]:focus{
+    outline: none;
+    box-shadow: 0 0 1.0rem #1c5882;
+}
+
+
+form input[type="submit"]{
+    background-color: red;
+    line-height: 1.5rem;
+    color: #fff;
+    width: 100px;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+form select{
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+}
+footer{
+    text-align: center;
+}
